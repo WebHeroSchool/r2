@@ -1,14 +1,14 @@
-body {
+.body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-header {
+.body__header {
     font-size: 50px;
     display: flex;
     justify-content: center;
 }
-nav {
+.nav {
     border: solid;
     border-color: salmon;
     display: flex;
@@ -17,10 +17,11 @@ nav {
     align-items: center;
     width: 900px;
 }
-h1 {
+.body__title {
+    font-family: 'Oswald', sans-serif;
     font-size: 50px;
 }
-section {
+.body__section {
     display: flex;
     flex-grow: 0;
     flex-shrink: 0;
@@ -29,23 +30,21 @@ section {
     height: 500px;
     flex-basis: 50%;
 }
-p {
-    font-size: 20px;
-    padding-right: 16px;
-}
-.content {
+.body__sections {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.content-aside {
+.body__aside {
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 50%;
 }
-.content-item {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    flex-basis: 0 0 50%;
-    max-width: 200px;
+.body__text {
+    font-family: 'Roboto Slab', serif;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    max-width: 260px;
 }

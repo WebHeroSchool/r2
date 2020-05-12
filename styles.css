@@ -1,0 +1,50 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body__header {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    border: solid;
+    border-color: salmon;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+}
+.body__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+.body__section {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    flex-basis: 50%;
+}
+.body__sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.body__aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+.body__text {
+    font-family: 'Roboto Slab', serif;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    max-width: 260px;
+}
